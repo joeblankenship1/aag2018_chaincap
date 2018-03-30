@@ -8,6 +8,12 @@
 
         transition: 'convex', // none/fade/slide/convex/concave/zoom
 
+        // Parallax background image
+	    parallaxBackgroundImage: '../img/mining.jpg',
+
+	    // Parallax background size
+	    parallaxBackgroundSize: '2100px 1080px',
+
         dependencies: [
             { src: 'plugin/notes/notes.js', async: true }
         ]
